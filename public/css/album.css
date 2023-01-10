@@ -1,0 +1,212 @@
+:root {
+  --jumbotron-padding-y: 3rem;
+}
+
+#jumbo-boi{
+  padding-top: 170px;
+  padding-bottom: 170px;
+}
+
+.jumbotron {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin-bottom: 0;
+  background-color: transparent;
+}
+@media (min-width: 768px) {
+  .jumbotron {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.jumbotron p:last-child {
+  margin-bottom: 0;
+}
+
+.jumbotron-heading {
+  font-weight: 300;
+}
+
+.jumbotron .container {
+  max-width: 40rem;
+}
+
+footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+footer p {
+  margin-bottom: .25rem;
+}
+
+.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+
+#working-body{
+  background-image:url("https://images.pexels.com/photos/2693529/pexels-photo-2693529.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+}
+
+.navbarHeader{
+  background-color: transparent;
+}
+
+.navbar{
+  background-color: transparent;
+}
+
+.jumbotron-heading{
+  font-family: 'Permanent Marker', cursive;
+  color: white;
+}
+
+.button-color{
+
+  background-color: transparent;
+  outline-color: black;
+  outline-width: thin;
+  border-color: white;
+  color: white;
+
+}
+
+#features{
+  background-color:#fff;
+
+  position:relative;
+  z-index:1;
+
+}
+
+#feature-div{
+  padding: 10% 15%;
+}
+
+.feature-h{
+  font-family: "Ubuntu";
+
+}
+
+.feature-p{
+  font-family: "Ubuntu";
+
+}
+
+.ficon{
+
+  color: #628ca8;
+}
+
+.feature-box{
+  padding: 2%;
+  text-align: center;
+}
+
+.ficon:hover{
+  color: #b0e7f7;
+}
+
+
+/* TESTIMONIAL */
+
+
+#testimonials{
+
+  text-align: center;
+
+  font-family: "Ubuntu";
+  color:#225261;
+  outline-width: thin;
+  outline-color: black;
+  font-border:black;
+
+
+  font-weight: 700;
+
+  background-color: white;
+}
+
+.testimonial-image{
+  width:10%;
+  border-radius: 100%;
+
+
+}
+
+
+#press{
+  background-color: transparent;
+  text-align: center;
+}
+
+.press-icon{
+  padding-bottom: 5%;
+  width:15%;
+  margin:0% 2%;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+/* PRICING CARD STYLES */
+
+.pricing-header{
+  font-family: 'Permanent Marker', cursive;
+  color: white;
+  text-align: center;
+
+  padding-top: 5%;
+}
+
+.card{
+  padding:1%;
+
+  margin: 1%;
+
+  text-align: center;
+
+}
+
+.pricing-row{
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.card-header{
+  background-color: black;
+  color:white;
+
+}
+
+.card-header:hover{
+  color: white;
+}
+
+
+#cta{
+  background-color: #225261;
+  color:#fff;
+  text-align:center;
+  padding:3%;
+  font-family: "Ubuntu";
+}
+
+#footer{
+  background-color: #225261;
+  color:#fff;
+  text-align:center;
+  padding:1%;
+}
+
+#pricing{
+  padding-bottom:3%;
+}
+
+.cicon{
+  background-color: black;
+}
+
+.marker-font{
+  font-family: 'Permanent Marker', cursive;
+  color: black;
+}

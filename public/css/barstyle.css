@@ -1,0 +1,46 @@
+.pricing-header{
+  font-family: 'Permanent Marker', cursive;
+  color: white;
+  text-align: center;
+
+  padding-top: 5%;
+}
+
+.card{
+  padding:1%;
+
+  margin: 1%;
+
+  text-align: center;
+
+}
+
+.pricing-row{
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.card-header{
+  background-color: black;
+  color:black;
+
+}
+
+.card-header:hover{
+  color: white;
+}
+
+.working-body{
+  background-image: url(https://images.pexels.com/photos/2693529/pexels-photo-2693529.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+}
+
+.marker-font{
+  font-family: 'Permanent Marker', cursive;
+  color: black;
+}
+
+.about-us{
+  color:white;
+  margin-left: 2%;
+    font-family: 'Permanent Marker', cursive;
+}

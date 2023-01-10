@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en" >
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="/docs/4.0/assets/img/favicons/favicon.ico">
+
+    <title>Libraro</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/sign-in/">
+
+    <!-- Bootstrap core CSS -->
+    <link href="https://getbootstrap.com/docs/4.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="/css/styles.css" rel="stylesheet">
+  </head>
+
+  <body class=" login-page-body text-center" >
+    <form class="form-signin" method="post" action="/signup">
+
+      <h1 class="h3 mb-3 font-weight-normal login-header">Please sign in</h1>
+      <label for="inputEmail" class="sr-only">Email address</label>
+      <label for="inputPassword" class="sr-only">Password</label>
+      <input name="username" type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+
+      <input name="password" type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+      <div class="checkbox mb-3">
+      <br>
+      </div>
+      <button class="btn btn-lg button-color btn-block " type="submit">Sign in</button>
+      <br>
+      <p style="color:white;">&copy; 2022-2023</p>
+    </form>
+  </body>
+
+  <div id='status' class='invisible'>
+    <%= errormessage %>
+  </div>
+
+  <script>
+        if($('div#status').text()!='')
+        {
+                  alert($('div#status').text());
+        }
+  </script>
+
+</html>
